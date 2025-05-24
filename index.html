@@ -3,129 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bonnie Hall | Front-End Developer Portfolio</title>
+    <meta name="description" content="Explore the professional portfolio of Bonnie Hall, a US-based front-end developer specializing in responsive websites, weather apps, and digital tools.">
+    <meta name="keywords" content="Front-end developer, Bonnie Hall, web developer portfolio, responsive design, HTML CSS JavaScript, weather app, dictionary app, flower portfolio, UI UX">
+    <meta name="author" content="Bonnie Hall" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Poppins:wght@500;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/dfa9b174a5.js" crossorigin="anonymous"></script>
+  </head>
 
-</head>
 <body cz-shortcut-listen="true">
-  <div class="container">
-    <nav class="d-flex justify-content-between">
-      <a href="/">
+  <header class="container">
+    <nav class="d-flex justify-content-between align-items-center py-3">
+      <a href="/" title="Bonnie Hall Home"> 
         <img src="images/logo.png" class="logo d-none d-md-block" alt="logo">
         <img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="logo">
       </a>
-      <ul>
-        <li class="active">
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/about.html">About</a>
-        </li>
-        <li>
-          <a href="/work.html">Work</a>
-        </li>
-        <li>
-          <a href="/contact.html">Contact</a>
-        </li>
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="/work.html">Work</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
       </ul>
     </nav>
-  </div>
-    <div class="hero">
+  </header>
+
+  <main>
+    <section class="hero text-center py-5">
       <p>👋 Hello, I'm</p>
       <h1>Bonnie Hall</h1>
-      <h2 class="mb-5">Front-end developer, based in the US</h2>
+      <h2 class="mb-5">Front-End Developer based in the United States</h2>
+      <a href="/contact.html" class="btn btn-branding">Contact Me</a>
+    </section>
+
+    <section class="container my-5 text-center">
+      <p>Below are a few selected projects that showcase my skills in web development.</p>
+    </section>
+
+    <section class="container">
+      <article class="row mb-5 align-items-center">
+        <div class="col-lg-6 d-none d-lg-block">
+          <img src="images/flower.png" class="img-fluid" alt="Flower portfolio project screenshot">
+        </div>
+        <div class="col-lg-6">
+          <h2>Flower Portfolio Project</h2>
+          <p class="text-muted">A responsive portfolio site showcasing flower photography with elegant layout and botanical theme.</p>
+          <a href="/flower.html" class="btn btn-branding-outline">Learn More</a>
+        </div>
+      </article>
+
+      <article class="row mb-5 align-items-center">
+        <div class="col-lg-6 order-lg-2 d-none d-lg-block">
+          <img src="images/weather.png" class="img-fluid" alt="Weather app screenshot">
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <h2>Weather App</h2>
+          <p class="text-muted">A weather forecasting app built with JavaScript APIs, offering real-time location-based updates and clean UI.</p>
+          <a href="/weather.html" class="btn btn-branding-outline">Learn More</a>
+        </div>
+      </article>
+
+      <article class="row mb-5 align-items-center">
+        <div class="col-lg-6 d-none d-lg-block">
+          <img src="images/dictionary.png" class="img-fluid" alt="Dictionary app screenshot">
+        </div>
+        <div class="col-lg-6">
+          <h2>Dictionary App</h2>
+          <p class="text-muted">An interactive dictionary with search and audio pronunciation features, using JavaScript and API integration.</p>
+          <a href="/dictionary.html" class="btn btn-branding-outline">Learn More</a>
+        </div>
+      </article>
+    </section> 
+   </main>
+
+   <footer class="container mt-5">
+    <div class="contact-box d-none d-md-flex justify-content-between mb-4">
       <div>
-        <a href="contact.html" class="btn btn-branding">Contact me</a>
+        <h4>Work Inquiry</h4>
+        <p class="text-muted">Let's work together on your next project.</p>
       </div>
+      <a href="/contact.html" class="btn btn-branding mt-3">Contact Me</a>
     </div>
-    <p class="text-center m-5">
-        Featured Projects are some of my best projects by choice to display
-    </p>
-    <div class="container">
-        <div class="row mb-5">
-          <div class="col d-none d-lg-block">
-            <img src="images/flower.png" class="img-fluid" alt="flower">
-          </div>
-          <div class="col">
-            <div class="project-desciption">
-              <h2 class="mb-5">Flower Project</h2>
-              <p class="mb-5 text-muted">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics, a
-                large language ocean. A small river named Duden flows by
-              </p>
-              <a href="" class="btn btn-branding-outline"> Learn more </a>
-            </div>
-          </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col">
-            <div class="project-description">
-              <h2 class="mb-5">Weather App</h2>
-              <p class="mb-5 text-muted">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics, a
-                large language ocean. A small river named Duden flows by
-              </p>
-              <a href="" class="btn btn-branding-outline"> Learn more </a>
-            </div>
-          </div>
-          <div class="col d-none d-lg-block">
-            <img src="images/weather.png" class="img-fluid" alt="weather">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col d-none d-lg-block">
-            <img src="images/dictionary.png" class="img-fluid" alt="dictionary">
-          </div>
-          <div class="col">
-            <div class="project-desciption">
-              <h2 class="mb-5">Dictionary App</h2>
-              <p class="mb-5 text-muted">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics, a
-                large language ocean. A small river named Duden flows by
-              </p>
-              <a href="" class="btn btn-branding-outline"> Learn more </a>
-            </div>
-          </div>
-        </div>
-        <footer>
-          <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
-            <div>
-              <h4>Work Inquiry</h4>
-              <p class="text-muted">Let's work together</p>
-            </div>
-            <div>
-              <a href="contact.html" class="btn btn-branding mt-3"> Contact me </a>
-            </div>
-          </div>
-          <div class="d-flex justify-content-center mb-5">
-            <a href="mailto:bonnie@gmail.com" class="email-link">
-              bonnie@gmail.com
-            </a>
-          </div>
-          <div class="social-links d-flex justify-content-center">
-            <a href="https://www.github.com/Bhall2023" target="_blank">
-              <i class="fab fa-github" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.instragram.com/bonnie" target="_blank">
-              <i class="fab fa-instagram" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.x.com/bonn4678" target="_blank">
-              <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
-            </a>
-          </div>
-        </footer>
-         </div>
-      
+
+    <div class="text-center mb-4">
+      <a href="mailto:bonnie@gmail.com" class="email-link">bonnie@gmail.com</a>
+    </div>
+
+    <div class="social-links d-flex justify-content-center gap-4 mb-4">
+      <a href="https://www.github.com/Bhall2023" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.instagram.com/bonnie" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.x.com/bonn4678" target="_blank" rel="noopener noreferrer" aria-label="Twitter Profile">
+        <i class="fa-brands fa-x-twitter"></i>
+      </a>
+    </div>
+  </footer>     
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   </body> 
 </html>
