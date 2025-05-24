@@ -22,10 +22,17 @@
   
   h1 {
     font-size: 96px;
+    line-height: 1.5;
   }
+
+h2 {
+  font-size: 64px;
+}
   
   p {
     font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
   }
   
   .hero {
@@ -44,9 +51,14 @@
   .hero h2 {
     font-family: var(--heading-font-family);
     font-weight: normal;
-    line-height: 2;
+    line-height: 1.5;
     font-size: 24px;
   }
+
+
+.content-container {
+  padding: 160px 20px;
+}
   
   .content h1 {
     font-size: 64px;
@@ -70,13 +82,12 @@
    }
 
    .content {
-    text-align: center;
-    padding: 0;
+    margin: 30px;
     
   }
 
    .content-container {
-    margin: 30px;
+      padding: 160px 20px;
    }
 
   .btn-branding {
@@ -87,13 +98,14 @@
     line-height: 27px;
     padding: 15px 30px;
   }
-  
-  
-  @media (max-width: 720px){
-    h1 {
-      font-size: 44px;
-      line-height: 2;
-    }
+
+  .btn-branding-outline {
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
   }
 
   .project-desciption {
@@ -106,11 +118,11 @@
     
   }
   
-  .nav {
+  nav {
     padding: 20px 0;
   }
   
-  .nav ul {
+  nav ul {
     padding: 0;
     margin: 0;
   }
@@ -123,14 +135,14 @@
     margin-left: 15px;
   }
   
-  .nav a {
+  nav a {
     text-decoration: none;
     color: #272142;
     transition: all 100ms ease-in-out;
   }
   
-  .nav a:hover,
-  .nav li.active a {
+  nav a:hover,
+  nav li.active a {
     color: var(--branding-color);
   }
   
