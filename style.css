@@ -59,10 +59,16 @@ h2 {
 .content-container {
   padding: 20px;
 }
+
+.about-heading {
+  font-size: 48px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
   
-  .content h1 {
-    font-size: 64px;
-    line-height: 80px;
+.content h1 {
+    font-size: 48px;
+    line-height: 64px;
   }
 
   .content h2 {
